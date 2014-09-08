@@ -1,7 +1,7 @@
 
 
-
-class PrototypeObject
+class PrototypedObject
+  include PrototypeConstructor
  def set_method (a_method, a_block )
    self.singleton_class.send(:define_method,
                               a_method,a_block)
@@ -13,5 +13,14 @@ class PrototypeObject
 
   def set_prototype (an_object)
 
+  end
+end
+
+module PrototypeConstructor
+def new()
+
+end
+  def copy(an_object)
+    an_object.clone
   end
 end

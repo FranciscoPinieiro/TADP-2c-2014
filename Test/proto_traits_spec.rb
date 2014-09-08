@@ -1,6 +1,5 @@
 require 'rspec'
-require_relative '../domain/proto_trait_tipos'
-
+require_relative '../src/domain/proto_trait_tipos'
 describe 'Prototype' do
 
   it 'asigno un metodo a un guerrero' do
@@ -12,26 +11,30 @@ describe 'Prototype' do
                             otro_guerrero.recibe_danio(self.potencial_ofensivo - otro_guerrero.potencial_defensivo)
                           end
                         });
-    guerrero.atacar_a(PrototypeObject.new)
+    guerrero.atacar_a(PrototypedObject.new)
   end
 
-  it 'asigno una variable a un guerrero' do
+  it 'Un prototipo se crea con energia 100' do
+
     guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100)
-    expect(guerrero.energia).to eq(100)
-
+    guerrero.set_property( energia, 100)
+    guerrero.energia == 100
   end
+
   it 'creacion de un prototipo de guerrero' do
+    guerrero = PrototypedObject.new
     Guerrero = PrototypedConstructor.new(guerrero, proc {
-        |guerrero_nuevo, una_energia, un_potencial_ofensivo, un_potencial_defensivo|
-      guerrero_nuevo.energia = una_energia
-      guerrero_nuevo.potencial_ofensivo = un_potencial_ofensivo
-      guerrero_nuevo.potencial_defensivo = un_potencial_defensivo
+        |guerrero_new, una_energia, un_potencial_ofensivo, un_potencial_defensivo|
+      guerrero_new.energia = una_energia
+      guerrero_new.potencial_ofensivo = un_potencial_ofensivo
+      guerrero_new.potencial_defensivo = un_potencial_defensivo
     })
     un_guerrero = Guerrero.new(100, 30, 10)
     expect(un_guerrero.energia).to eq(100)
 
   end
+
+
   it 'un prototipo de guerrero ataca a otro' do
 
     guerrero.set_property(:potencial_defensivo, 10)
