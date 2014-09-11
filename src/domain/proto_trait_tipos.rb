@@ -22,7 +22,12 @@ class PrototypedObject
 
    self.singleton_class.send(:define_method,
                               a_method,a_block)
-   self.interested.each{|a_interested| a_interested.set_method( a_method, a_block) }
+
+   self.interested.each do |a_interested|
+     if not a_interested.respond_to? (a_method)
+      a_interested.set_method( a_method, a_block)
+     end
+   end
 
  end
   def set_property (a_attr, a_value)
@@ -50,7 +55,8 @@ class PrototypedObject
 
     self.atributos.each { |a_attr| a_interested.instance_variable_set("@#{a_attr}", nil)}
 
-    self.bloques.each { |a_method, a_block| a_interested.set_method(a_method, a_block)}
+    self.bloques.each{|a_method, a_block| a_interested.set_method(a_method, a_block)}
+
 
   end
 end
