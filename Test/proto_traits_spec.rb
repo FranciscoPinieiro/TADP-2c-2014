@@ -32,6 +32,57 @@ it 'Cuando un guerrero ataca a otro' do
 
 end
 
+it 'Asigno a un objeto su prototipo' do
+
+  guerrero = PrototypedObject.new
+  guerrero.set_property( :energia, 100)
+  guerrero.set_property(:potencial_defensivo, 10)
+  guerrero.set_property(:potencial_ofensivo, 30)
+
+  guerrero.set_method(:atacar_a,
+                      lambda {
+                          |otro_guerrero|
+                        if(otro_guerrero.potencial_defensivo < self.potencial_ofensivo)
+                          otro_guerrero.recibe_danio(self.potencial_ofensivo - otro_guerrero.potencial_defensivo)
+                        end
+                      });
+
+  guerrero.set_method(:recibe_danio, lambda { | ataque| self.energia -= ataque})
+
+
+  espadachin = PrototypedObject.new
+
+  espadachin.set_prototype(guerrero)
+  espadachin.set_property(:habilidad, 0.5)
+  espadachin.set_property(:potencial_espada, 30)
+  espadachin.energia = 100
+  espadachin.potencial_ofensivo = 10
+
+  espadachin.set_method(:potencial_ofensivo, proc {
+    @potencial_ofensivo + self.potencial_espada * self.habilidad
+  })
+
+  otro_guerrero = guerrero.clone
+
+  espadachin.atacar_a(otro_guerrero)
+  expect(otro_guerrero.energia).to eq(85)
+
+=begin
+  espadachin.set_prototype(guerrero)
+  espadachin.set_property(:habilidad, 0.5)
+  espadachin.set_property(:potencial_espada, 30)
+  espadachin.energia = 100
+
+
+  espadachin.set_method(:potencial_ofensivo, proc {
+    @potencial_ofensivo + self.potencial_espada * self.habilidad
+  })
+  espadachin.atacar_a(otro_guerrero)
+expect(otro_guerrero.energia).to eq(75)
+=end
+
+
+end
 
 
 =begin
