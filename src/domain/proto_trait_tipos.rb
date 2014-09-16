@@ -59,13 +59,43 @@ class PrototypedObject
 
 
   end
-end
 
-module PrototypeConstructor
-def new()
+  def new( *args)
+    args.flat_map
+    a_protoObject = self.clone
+    if( args.size != 0) then
+        a_map = args[0]
+        a_map.each_key { |a_key| a_protoObject.set_property( a_key, a_map[a_key]) }
+    end
 
-end
-  def copy(an_object)
-    an_object.clone
+    a_protoObject
+
+  end
+
+  end
+
+class PrototypedConstructor
+
+  class << self
+  alias_method :new_name, :new
+
+  def new( a_prototype)
+    a_object = PrototypedObject.new
+    a_object.set_prototype(a_prototype)
+    a_object
+  end
+
+  def copy(a_prototype)
+
+    a_object = PrototypedObject.new
+    a_object.set_prototype(a_prototype)
+    a_prototype.atributos.each { |a_attr| a_object.set_property( a_attr, a_prototype.instance_variable_get("@#{a_attr}"))}
+    a_object
+
   end
 end
+
+
+end
+
+

@@ -126,6 +126,32 @@ it 'No son afectados los metodos que fueron redefinidos por el objeto derivado' 
 end
 
 
+it 'Cuando creo una instancia de un objeto con un prototipo predefinido' do
+
+  guerrero = PrototypedObject.new
+
+  Guerrero = PrototypedConstructor.new(guerrero)
+
+  un_guerrero = Guerrero.new(
+      {energia: 100, potencial_ofensivo: 30, potencial_defensivo: 10}
+  )
+  expect(un_guerrero.potencial_ofensivo).to eq(30)
+end
+
+it 'Cuando copia estado actual del prototipo' do
+
+  guerrero = PrototypedObject.new
+  guerrero.set_property( :energia, 100)
+  guerrero.set_property(:potencial_defensivo, 10)
+  guerrero.set_property(:potencial_ofensivo, 30)
+
+  Guerrero = PrototypedConstructor.copy(guerrero)
+
+  un_guerrero = Guerrero.new
+
+  expect(un_guerrero.potencial_defensivo).to eq(10)
+end
+
 =begin
 it 'Cuando seteo un prototipo se obtienen todos sus metodos' do
 
