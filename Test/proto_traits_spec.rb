@@ -152,6 +152,27 @@ it 'Cuando copia estado actual del prototipo' do
   expect(un_guerrero.potencial_defensivo).to eq(10)
 end
 
+it 'Cuando un constructor altera los metodos que entiende un objeto' do
+
+  guerrero = PrototypedObject.new
+  guerrero.set_property( :energia, 100)
+  guerrero.set_property(:potencial_defensivo, 10)
+  guerrero.set_property(:potencial_ofensivo, 30)
+
+  Guerrero = PrototypedConstructor.copy(guerrero)
+
+  Espadachin = Guerrero.extended ( lambda {
+      |espadachin, habilidad, potencial_espada|
+    espadachin.set_property(:habilidad, habilidad)
+    espadachin.set_property(:potencial_espada, potencial_espada)
+    espadachin.set_method(:potencial_ofensivo, proc {
+      @potencial_ofensivo + self.potencial_espada * self.habilidad
+    })
+  })
+  espadachin = Espadachin.new({energia: 100, potencial_ofensivo: 30, potencial_defensivo: 10, habilidad: 0.5, potencial_espada: 30})
+  expect(espadachin.potencial_ofensivo).to eq(45)
+
+end
 =begin
 it 'Cuando seteo un prototipo se obtienen todos sus metodos' do
 
