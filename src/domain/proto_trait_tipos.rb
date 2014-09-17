@@ -1,5 +1,5 @@
 module Prototyped
-  attr_accessor :interested, :bloques, :atributos, :prototipo
+  attr_accessor :interested, :bloques, :atributos, :prototipo, :prototypes
 
   def interested
     @interested = @interested || []
@@ -16,6 +16,11 @@ module Prototyped
     @atributos
   end
 
+  def prototypes
+    @prototypes = @prototypes || []
+    @prototypes
+  end
+
   def set_method (a_method, a_block )
 
    self.bloques << [a_method, a_block]
@@ -28,8 +33,8 @@ module Prototyped
       a_interested.set_method( a_method, a_block)
      end
    end
+  end
 
- end
   def set_property (a_attr, a_value)
 
       self.atributos << a_attr
@@ -49,6 +54,8 @@ module Prototyped
   def set_prototype (a_prototype)
     a_prototype.set_interested(self)
     self.prototipo = a_prototype
+    #Hay que readaptar el resto del codigo para que use el array prototypes y no la var prototipo ya que ahora puede tener varios.
+    self.prototypes << a_prototype
   end
 
   def set_interested( a_interested)
@@ -85,6 +92,41 @@ module Prototyped
     a_object
   end
 
+  def call_next
+    method_name = caller_locations(1,1)[0].label
+    next_prototype_with_method = self.prototype_look_up(method_name)
+    if !(next_prototype_with_method.nil?)
+      method_block = next_prototype_with_method.get_method_block(method_name)
+      self.instance_eval method_block
+      #method_block.call(self, 0, 0) #no se cual funciona todavia
+    end
+    nil #Aca habria que hacer un raise error o algo asi porque no se encontro el metodo en los siguientes prototipos
+  end
+
+  def prototype_look_up (method_wanted)
+    first_prototype = true
+    self.prototypes.each {|a_prototype|
+      if a_prototype.respond_to? (method_wanted)
+        if first_prototype == true
+          #Salteamos el primer prototipo que tenga dicho metodo
+          #ya que este coincide con el metodo que llamo al call_next
+          first_prototype = false
+        else
+          # Encontramos el siguiente prototipo que define al metodo buscado
+          return a_prototype
+        end
+      end
+    }
+    nil #no se encontro un segundo prototipo que implemente dicho metodo
+  end
+
+  def get_method_block (method_wanted)
+      prototype_method_names = self.bloques.map{|a_method| a_method[0].to_s}
+      method_index = prototype_method_names.index(method_wanted)
+      if !method_index.nil?
+        return self.bloques[method_index][1]
+      end
+  end
 end
 
 class PrototypedObject
