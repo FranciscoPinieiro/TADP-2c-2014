@@ -51,6 +51,15 @@ module Prototyped
       end
   end
 
+  def set_identifier(a_key, a_value)
+
+    if a_value.respond_to? :call
+      self.set_method(a_key, a_value)
+    else
+      self.set_property(a_key, a_value)
+    end
+  end
+
   def set_prototype (a_prototype)
     a_prototype.set_interested(self)
     self.prototipo = a_prototype
@@ -127,6 +136,10 @@ module Prototyped
         return self.bloques[method_index][1]
       end
   end
+
+  def method_missing(method_name, *args)
+    set_identifier(method_name.to_s.tr('=',''), args[0])
+  end
 end
 
 class PrototypedObject
@@ -155,6 +168,5 @@ class PrototypedConstructor
 end
 
 
+
 end
-
-

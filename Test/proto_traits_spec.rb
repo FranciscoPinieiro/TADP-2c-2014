@@ -173,6 +173,36 @@ it 'Cuando un constructor altera los metodos que entiende un objeto' do
   expect(espadachin.potencial_ofensivo).to eq(45)
 
 end
+
+
+it 'Asignar nuevos atributos (Azucar Sintactico p1)'do
+  guerrero_proto2 = PrototypedObject.new
+  guerrero_proto2.energia = 100
+  expect(guerrero_proto2.energia).to eq(100)
+end
+
+it 'Agregar nuevos metodos (Azucar sintactico p1)'do
+
+  guerrero_proto = PrototypedObject.new
+  guerrero_proto.energia = 100
+  guerrero_proto.potencial_defensivo = 10
+  guerrero_proto.potencial_ofensivo = 30
+
+
+  guerrero_proto.atacar_a = proc { |otro_guerrero|
+    if(otro_guerrero.potencial_defensivo < self.potencial_ofensivo)
+      otro_guerrero.recibe_danio(self.potencial_ofensivo - otro_guerrero.potencial_defensivo)
+    end
+  }
+
+  guerrero_proto.recibe_danio= proc { | ataque| self.energia -= ataque}
+  otro_guerrero= guerrero_proto.clone #clone es un metodo que ya viene definido en Ruby
+
+  guerrero_proto.atacar_a otro_guerrero
+  expect(otro_guerrero.energia).to eq(80)
+
+end
+
 =begin
 it 'Cuando seteo un prototipo se obtienen todos sus metodos' do
 
@@ -279,6 +309,7 @@ end
     expect(otro_guerrero.energia).to eq(80)
   end
 =end
+
 
 
 end
