@@ -385,7 +385,31 @@ end
 
     resultado = un_guerrero.asd
     resultado
-
   end
 =end
+
+
+  it 'Crear nuevo objeto con nuevo prototipo (solo con metodos)' do
+
+    Guerrero = PrototypedConstructor.create{
+      self.metodo1 = proc {"hola "}
+      self.metodo2 = proc {"y chau"}
+    }
+
+    atila = Guerrero.new
+    expect(atila.metodo1 + atila.metodo2).to eq("hola y chau")
+
+  end
+
+  it 'Crear nuevo objeto con nuevo prototipo (con metodos y atributos)' do
+
+    Guerrero = PrototypedConstructor.create{
+      self.metodo1 = proc {"hola "}
+      self.metodo2 = proc {"y chau"}
+    }.with_properties([:energia, :potencial_ofensivo, :potencial_defensivo])
+
+    atila = Guerrero.new
+    expect(atila.atributos.include?(:energia)).to eq(true)
+
+  end
 end

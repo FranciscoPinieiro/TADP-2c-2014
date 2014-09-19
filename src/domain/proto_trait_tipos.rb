@@ -185,6 +185,15 @@ module Prototyped
   def method_missing(method_name, *args)
     set_identifier(method_name.to_s.tr('=',''), args[0])
   end
+
+  def with_properties(block)
+    #a_map = block.flat_map
+    an_object = self.clone
+    #a_map = args[0]
+    block.each { |a_key| an_object.set_property( a_key, nil) }
+    an_object
+  end
+
 end
 
 class PrototypedObject
@@ -210,6 +219,17 @@ class PrototypedConstructor
     a_object
 
   end
+
+  def create &block
+
+    new_prototype = PrototypedObject.new
+    new_prototype.instance_eval &block
+
+    an_object = PrototypedConstructor.new(new_prototype)
+
+    an_object
+  end
+
 end
 
 
