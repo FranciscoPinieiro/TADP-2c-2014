@@ -362,4 +362,28 @@ end
     expect(otro_guerrero.energia).to eq(80)
 
   end
+
+  it 'prueba del get_method' do
+    guerrero = PrototypedObject.new
+    guerrero.set_property( :energia, 100)
+    guerrero.set_property(:potencial_defensivo, 10)
+    guerrero.set_property(:potencial_ofensivo, 30)
+    Guerrero = PrototypedConstructor.copy(guerrero)
+
+    proto_atacante = PrototypedObject.new
+    proto_atacante.set_method(:asd,
+                              lambda { call_next + 1  });
+
+    proto_defensor = PrototypedObject.new
+    proto_defensor.set_method(:asd, lambda { 2 })
+
+    guerrero.set_prototypes([proto_atacante,proto_defensor])
+
+    un_guerrero = Guerrero.new
+    otro_guerrero = Guerrero.new
+
+    resultado = un_guerrero.asd
+    resultado
+
+  end
 end

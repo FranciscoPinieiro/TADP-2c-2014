@@ -141,26 +141,34 @@ module Prototyped
 
   def call_next
     #method_name = caller
+    call_loc = caller_locations
     method_name = caller_locations(1,1)[0].label
     if call_next_iteration.nil? then
       call_next_iteration = 0
     end
     call_next_iteration =+ 1
-    next_prototype_with_method = self.prototype_look_up(method_name)
-    if !(next_prototype_with_method.nil?)
-      method_block = next_prototype_with_method.get_method_block(method_name)
-      self.instance_eval method_block
-    end
-    call_next_iteration =- 1
+    method_wanted_block = self.get_method_block(method_name)
+    self.instance_eval method_wanted_block
+    call_next_iteration =-1
     nil #Aca habria que hacer un raise error o algo asi porque no se encontro el metodo en los siguientes prototipos
   end
 
-  def prototype_look_up (method_wanted)
-    prototype_method_names = self.proto_methods.keep_if{|a_method| a_method[0].to_s == method_wanted}
-    if !prototype_method_names.nil?
-      return prototype_method_names[call_next_iteration-1][1] #Devuelve el prototype que implementa ese metodo
-    end
-    nil
+  # def prototype_look_up (method_wanted)
+  #   prototype_method_names = self.proto_methods.keep_if{|a_method| a_method[0].to_s == method_wanted}
+  #   if !prototype_method_names.nil?
+  #     return prototype_method_names[call_next_iteration-1][1] #Devuelve el prototype que implementa ese metodo
+  #   end
+  #   nil
+  # end
+
+  def find_block_in_prototypes (method_wanted)
+    block_wanted = nil
+    prototypes.each{ |a_prototype|
+      if (block_wanted.nil? && a_prototype.respond_to?(method_wanted)) then
+        block_wanted = a_prototype.get_method_block(method_wanted)
+      end
+    }
+    block_wanted
   end
 
   def get_method_block (method_wanted)
@@ -168,6 +176,8 @@ module Prototyped
     blocks_wanted = self.bloques.keep_if{|a_method| a_method[0].to_s == method_wanted}
     if !(blocks_wanted.nil? || blocks_wanted == [])
       block_wanted = blocks_wanted[0][1]
+    else
+      blocks_wanted = find_block_in_prototypes(method_wanted)
     end
     blocks_wanted
   end
