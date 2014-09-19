@@ -363,6 +363,7 @@ end
 
   end
 
+=begin
   it 'prueba del get_method' do
     guerrero = PrototypedObject.new
     guerrero.set_property( :energia, 100)
@@ -386,4 +387,5 @@ end
     resultado
 
   end
+=end
 end
