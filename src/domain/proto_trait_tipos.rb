@@ -57,12 +57,15 @@ module Prototyped
     end
   end
 
+  #Si se cambia un metodo en el prototipo, se tiene que reflejar el cambio en el prototipado
   def set_method (a_method, a_block)
+    #Van a necesitar un Hash para poder obtener el bloque a partir del nombre del metodo
     self.bloques << [a_method,a_block]
-    self.singleton_class.send(:define_method,a_method,a_block)
+    self.singleton_class.send(:define_method,a_method,&a_block)
     self.broadcast_method(a_method, a_block)
   end
 
+  #Logica repetida
   def set_property (a_attr, a_value)
     if !self.instance_variable_defined?("@#{a_attr}")
       self.atributos << a_attr
@@ -109,8 +112,7 @@ module Prototyped
     self.copy_subprototypes(a_interested)
   end
 
-  def new (*args )
-
+  def new *args, &block
     args.flat_map
     a_protoObject = self.clone
 
@@ -123,14 +125,17 @@ module Prototyped
             a_protoObject.set_property(a_key, a_map[a_key])
           end
         }
+    else
+      block.instance_eval a_protoObject unless block == nil
     end
+
 
     a_protoObject
   end
 
   def extended(a_block)
     a_object = PrototypedObject.new
-    a_object.set_prototype = self.prototype
+    a_object.set_prototype = self
     if self.prototypes.size != 1
       a_object.set_prototypes(self.prototypes)
     else
@@ -141,10 +146,11 @@ module Prototyped
     a_object
   end
 
+  #Pasar el nombre del metodo a llamar por parametro
   def call_next
-    # name_method = caller[0][/`.*'/][1..-2]
-    # proto_list = self.prototypes.select{ |a_proto| a_proto.respond_to? name_method}
-    # proto_list[0].send(name_method)
+    name_method = caller[0][/`.*'/][1..-2]
+    proto_list = self.prototypes.select{ |a_proto| a_proto.respond_to? name_method}
+    proto_list[0].send(name_method)
   end
 
 
@@ -170,6 +176,7 @@ module Prototyped
   end
 
   def method_missing(method_name, *args)
+    #Validar que el nombre del metodo tenga un igual. Si no se cumple, super
     set_identifier(method_name.to_s.tr('=',''), args[0])
   end
 
