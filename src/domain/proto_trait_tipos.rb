@@ -106,6 +106,7 @@ module Prototyped
   end
 
   def new (*args )
+
     args.flat_map
     a_protoObject = self.clone
 #    a_protoObject = PrototypedObject.new
@@ -124,18 +125,21 @@ module Prototyped
           end
         }
     end
+
     a_protoObject
   end
 
   def extended(a_block)
     a_object = PrototypedObject.new
+    a_object.set_prototype = self.prototype
     if self.prototypes.size != 1
       a_object.set_prototypes(self.prototypes)
     else
       a_object.set_prototype(self.prototypes[0])
     end
 
-    a_block.call(a_object, 0, 0)
+    a_object.instance_exec 0,0, &a_block
+    #a_block.call(a_object, 0, 0)
     a_object
   end
 
