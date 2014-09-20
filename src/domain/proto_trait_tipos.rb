@@ -33,6 +33,10 @@ module Prototyped
     @prototypes[0]
   end
 
+  def prototipos
+
+  end
+
   def copy_method (a_method, a_block, a_interested)
     a_interested.proto_methods << [a_method, self]
     if not a_interested.respond_to? (a_method)

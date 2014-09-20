@@ -221,6 +221,26 @@ it 'Azucar Sintactico sobre new' do
   guerrero_proto.atacar_a guerrero
   #expect(guerrero.atributos.include?(:energia)).to eq(true)
   expect(guerrero.energia).to eq(80)
+
+  # No funciona debido a que bajo nuestra definicion de new, recibe como parametro *args y no encontramos la manera de que corran ambos comportamientos a la vez.
+end
+
+it 'Azucar Sintactico para obtener prototipos' do
+
+  guerrero = PrototypedObject.new
+
+  Guerrero = PrototypedConstructor.copy(guerrero)
+
+  atila = Guerrero.new(
+      {energia: 100, potencial_ofensivo: 50, potencial_defensivo: 30}
+  )
+  expect(atila.potencial_ofensivo).to eq(50)
+  proto_guerrero = Guerrero.prototype
+  proto_guerrero.potencial_ofensivo = proc {
+    1000
+  } #no cumple el assertion ya que el setter "potencial_ofensivo=" esta definido y nosotros implementamos azucar sintactico con method_missing
+  expect(atila.potencial_ofensivo).to eq(1000)
+
 end
 
 it 'Azucar sintactico sobre extended' do
