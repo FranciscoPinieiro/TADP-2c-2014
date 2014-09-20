@@ -113,11 +113,6 @@ module Prototyped
 
     args.flat_map
     a_protoObject = self.clone
-#    a_protoObject = PrototypedObject.new
-#    a_protoObject.set_prototypes(self.prototypes)
-#    self.prototypes.each{|a_prototype|
-#      a_prototype.atributos.each { |a_attr| a_protoObject.instance_variable_set("@#{a_attr}",a_prototype.instance_variable_get("@#{a_attr}"))}
-#    }
 
     if( args.size != 0)
         a_map = args[0]
@@ -143,31 +138,15 @@ module Prototyped
     end
 
     a_object.instance_exec 0,0, &a_block
-    #a_block.call(a_object, 0, 0)
     a_object
   end
 
   def call_next
-    #method_name = caller
-    call_loc = caller_locations
-    method_name = caller_locations(1,1)[0].label
-    if call_next_iteration.nil? then
-      call_next_iteration = 0
-    end
-    call_next_iteration =+ 1
-    method_wanted_block = self.get_method_block(method_name)
-    self.instance_eval method_wanted_block
-    call_next_iteration =-1
-    nil #Aca habria que hacer un raise error o algo asi porque no se encontro el metodo en los siguientes prototipos
+    # name_method = caller[0][/`.*'/][1..-2]
+    # proto_list = self.prototypes.select{ |a_proto| a_proto.respond_to? name_method}
+    # proto_list[0].send(name_method)
   end
 
-  # def prototype_look_up (method_wanted)
-  #   prototype_method_names = self.proto_methods.keep_if{|a_method| a_method[0].to_s == method_wanted}
-  #   if !prototype_method_names.nil?
-  #     return prototype_method_names[call_next_iteration-1][1] #Devuelve el prototype que implementa ese metodo
-  #   end
-  #   nil
-  # end
 
   def find_block_in_prototypes (method_wanted)
     block_wanted = nil

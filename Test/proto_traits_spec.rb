@@ -318,83 +318,6 @@ it 'guerrero ataca a su prototipo' do
 end
 
 
-=begin
-  it 'asigno un metodo a un guerrero' do
-    guerrero = PrototypedObject.new
-    guerrero.set_method(:atacar_a,
-                        proc {
-                            |otro_guerrero|
-                          if(otro_guerrero.potencial_defensivo < self.potencial_ofensivo)
-                            otro_guerrero.recibe_danio(self.potencial_ofensivo - otro_guerrero.potencial_defensivo)
-                          end
-                        });
-    guerrero.atacar_a(PrototypedObject.new)
-  end
-=end
-
-=begin
-      it 'Un prototipo se crea con energia 100' do
-
-    guerrero = PrototypedObject.new
-    guerrero.set_property( "energia", 100)
-    guerrero.energia == 100
-    expect(guerrero.energia).to eq(100)
-=  end
-
-=begin
-  it 'creacion de un prototipo de guerrero' do
-    guerrero = PrototypedObject.new
-    Guerrero = PrototypedConstructor.new(guerrero, proc {
-        |guerrero_new, una_energia, un_potencial_ofensivo, un_potencial_defensivo|
-      guerrero_new.energia = una_energia
-      guerrero_new.potencial_ofensivo = un_potencial_ofensivo
-      guerrero_new.potencial_defensivo = un_potencial_defensivo
-    })
-    un_guerrero = Guerrero.new(100, 30, 10)
-    expect(un_guerrero.energia).to eq(100)
-  end
-
-
-  it 'un prototipo de guerrero ataca a otro' do
-
-    guerrero.set_property(:potencial_defensivo, 10)
-    guerrero.set_property(:potencial_ofensivo, 30)
-    guerrero.set_method(:atacar_a,
-                        proc {
-                            |otro_guerrero|
-                          if(otro_guerrero.potencial_defensivo < self.potencial_ofensivo)
-                            otro_guerrero.recibe_danio(self.potencial_ofensivo - otro_guerrero.potencial_defensivo)
-                          end
-                        });
-    guerrero.set_method(:recibe_danio, proc {})
-    otro_guerrero = guerrero.clone #clone es un metodo que ya viene definido en Ruby
-    guerrero.atacar_a otro_guerrero
-    expect(otro_guerrero.energia).to eq(80)
-  end
-=end
-=begin
-  it 'call_next deberia llamar a la siguiente implementacion de potencial_ofensivo' do
-
-    guerrero = PrototypedObject.new
-    guerrero.set_property( :energia, 100)
-    guerrero.set_property(:potencial_defensivo, 10)
-    guerrero.set_property(:potencial_ofensivo, 30)
-
-    Guerrero = PrototypedConstructor.copy(guerrero)
-
-    Espadachin = Guerrero.extended ( lambda {
-      |espadachin, habilidad, potencial_espada|
-      espadachin.set_property(:habilidad, habilidad)
-      espadachin.set_property(:potencial_espada, potencial_espada)
-      espadachin.set_method(:potencial_ofensivo, proc {
-        call_next + self.potencial_espada * self.habilidad
-      })
-    })
-
-    espadachin = Espadachin.new({energia: 100, potencial_ofensivo: 30, potencial_defensivo: 10, habilidad: 0.5, potencial_espada: 30})
-    expect(espadachin.potencial_ofensivo).to eq(45)
-  end
-=end
 
   it 'un prototipo guerrero deberia entender los mensajes de los multiples prototipos que forman al prototipo' do
 
@@ -426,31 +349,6 @@ end
 
   end
 
-=begin
-  it 'prueba del get_method' do
-    guerrero = PrototypedObject.new
-    guerrero.set_property( :energia, 100)
-    guerrero.set_property(:potencial_defensivo, 10)
-    guerrero.set_property(:potencial_ofensivo, 30)
-    Guerrero = PrototypedConstructor.copy(guerrero)
-
-    proto_atacante = PrototypedObject.new
-    proto_atacante.set_method(:asd,
-                              lambda { call_next + 1  });
-
-    proto_defensor = PrototypedObject.new
-    proto_defensor.set_method(:asd, lambda { 2 })
-
-    guerrero.set_prototypes([proto_atacante,proto_defensor])
-
-    un_guerrero = Guerrero.new
-    otro_guerrero = Guerrero.new
-
-    resultado = un_guerrero.asd
-    resultado
-  end
-=end
-
 
   it 'Crear nuevo objeto con nuevo prototipo (solo con metodos)' do
 
@@ -475,4 +373,31 @@ end
     expect(atila.atributos.include?(:energia)).to eq(true)
 
   end
+
+
+# it 'Test call_next' do
+#
+#   guerrero = PrototypedObject.new
+#
+#   Guerrero = PrototypedConstructor.copy(guerrero)
+#
+#   Guerrero.energia = 100
+#   Guerrero.potencial_defensivo = 10
+#
+#   Espadachin = Guerrero.extended ( lambda {
+#       |una_habilidad, un_potencial_espada|
+#     self.habilidad = una_habilidad
+#     self.potencial_espada = un_potencial_espada
+#     self.potencial_ofensivo = proc {
+#       self.call_next + self.potencial_espada * self.habilidad
+#     }
+#   })
+#
+#   guerrero.potencial_ofensivo = 50
+#   espadachin = Espadachin.new({energia: 100, potencial_defensivo: 10, habilidad: 0.5, potencial_espada: 30})
+#
+#   espadachin.set_prototype = guerrero
+#   expect(espadachin.potencial_ofensivo).to eq(65)
+#
+# end
 end
