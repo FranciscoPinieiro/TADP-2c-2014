@@ -177,8 +177,12 @@ module Prototyped
 
   def method_missing(method_name, *args)
     #Validar que el nombre del metodo tenga un igual. Si no se cumple, super
-    set_identifier(method_name.to_s.tr('=',''), args[0])
-  end
+      if (method_name.include? "=")
+        set_identifier(method_name.to_s.tr('=',''), args[0])
+      else
+        super
+      end
+    end
 
   def with_properties(block)
     #a_map = block.flat_map

@@ -4,23 +4,10 @@ describe 'Prototype' do
 
 
   before {
-    @a=5
-  }
-
-  it 'Asigno propiedad a guerrero' do
-
     guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100)
-    expect(guerrero.energia).to eq(100)
-  end
-
-  it 'Cuando un guerrero ataca a otro' do
-
-    guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100)
+    guerrero.set_property(:energia, 100
     guerrero.set_property(:potencial_defensivo, 10)
     guerrero.set_property(:potencial_ofensivo, 30)
-
     guerrero.set_method(:atacar_a,
                         lambda {
                             |otro_guerrero|
@@ -30,6 +17,17 @@ describe 'Prototype' do
                         });
 
     guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
+  }
+
+  it 'Asigno propiedad a guerrero' do
+
+
+    expect(guerrero.energia).to eq(100)
+  end
+
+  it 'Cuando un guerrero ataca a otro' do
+
+
     otro_guerrero = guerrero.clone #clone es un metodo que ya viene definido en Ruby
     guerrero.atacar_a otro_guerrero
     expect(otro_guerrero.energia).to eq(80)
@@ -37,21 +35,6 @@ describe 'Prototype' do
   end
 
   it 'Asigno a un objeto su prototipo' do
-
-    guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100)
-    guerrero.set_property(:potencial_defensivo, 10)
-    guerrero.set_property(:potencial_ofensivo, 30)
-
-    guerrero.set_method(:atacar_a,
-                        lambda {
-                            |otro_guerrero|
-                          if (otro_guerrero.potencial_defensivo < self.potencial_ofensivo)
-                            otro_guerrero.recibe_danio(self.potencial_ofensivo - otro_guerrero.potencial_defensivo)
-                          end
-                        });
-
-    guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
 
 
     espadachin = PrototypedObject.new
@@ -75,8 +58,6 @@ describe 'Prototype' do
 
   it 'Cuando modifico un prototipo, se modifican las instancias que lo tengan como prototipo' do
 
-    guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100)
 
     espadachin = PrototypedObject.new
     espadachin.set_prototype(guerrero)
@@ -91,22 +72,6 @@ describe 'Prototype' do
   end
 
   it 'No son afectados los metodos que fueron redefinidos por el objeto derivado' do
-
-    guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100)
-    guerrero.set_property(:potencial_defensivo, 10)
-    guerrero.set_property(:potencial_ofensivo, 30)
-
-    guerrero.set_method(:atacar_a,
-                        lambda {
-                            |otro_guerrero|
-                          if (otro_guerrero.potencial_defensivo < self.potencial_ofensivo)
-                            otro_guerrero.recibe_danio(self.potencial_ofensivo - otro_guerrero.potencial_defensivo)
-                          end
-                        });
-
-    guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
-
 
     espadachin = PrototypedObject.new
 
@@ -129,8 +94,6 @@ describe 'Prototype' do
   end
 
   it 'Cuando creo una instancia de un objeto con un prototipo predefinido' do
-    expect(@a).to eq(5)
-    guerrero = PrototypedObject.new
 
     Guerrero = PrototypedConstructor.new(guerrero)
 
@@ -142,10 +105,6 @@ describe 'Prototype' do
 
   it 'Cuando copia estado actual del prototipo' do
 
-    guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100)
-    guerrero.set_property(:potencial_defensivo, 10)
-    guerrero.set_property(:potencial_ofensivo, 30)
 
     Guerrero = PrototypedConstructor.copy(guerrero)
 
@@ -156,10 +115,6 @@ describe 'Prototype' do
 
   it 'Cuando un constructor altera los metodos que entiende un objeto' do
 
-    guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100)
-    guerrero.set_property(:potencial_defensivo, 10)
-    guerrero.set_property(:potencial_ofensivo, 30)
 
     Guerrero = PrototypedConstructor.copy(guerrero)
 
@@ -250,8 +205,6 @@ describe 'Prototype' do
 
   it 'Azucar sintactico sobre extended' do
 
-    guerrero = PrototypedObject.new
-
     Guerrero = PrototypedConstructor.copy(guerrero)
 
     Guerrero.energia = 100
@@ -272,10 +225,6 @@ describe 'Prototype' do
 
   it 'Cuando seteo un prototipo se obtienen todos sus metodos' do
 
-    guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100)
-    guerrero.set_property(:potencial_defensivo, 10)
-    guerrero.set_property(:potencial_ofensivo, 30)
 
     otro_guerrero = PrototypedObject.new
     otro_guerrero.set_property(:energia, 100)
@@ -297,11 +246,6 @@ describe 'Prototype' do
   end
 
   it 'guerrero ataca a su prototipo' do
-
-    guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100)
-    guerrero.set_property(:potencial_defensivo, 10)
-    guerrero.set_property(:potencial_ofensivo, 30)
 
     otro_guerrero = PrototypedObject.new
     otro_guerrero.set_property(:energia, 100)
@@ -325,10 +269,6 @@ describe 'Prototype' do
 
   it 'un prototipo guerrero deberia entender los mensajes de los multiples prototipos que forman al prototipo' do
 
-    guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100)
-    guerrero.set_property(:potencial_defensivo, 10)
-    guerrero.set_property(:potencial_ofensivo, 30)
     Guerrero = PrototypedConstructor.copy(guerrero)
 
     proto_atacante = PrototypedObject.new
@@ -381,7 +321,6 @@ describe 'Prototype' do
 
 it 'Test call_next' do
 
-   guerrero = PrototypedObject.new
 
    Guerrero = PrototypedConstructor.copy(guerrero)
 
