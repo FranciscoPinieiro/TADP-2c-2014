@@ -4,11 +4,11 @@ describe 'Prototype' do
 
 
   before {
-    guerrero = PrototypedObject.new
-    guerrero.set_property(:energia, 100
-    guerrero.set_property(:potencial_defensivo, 10)
-    guerrero.set_property(:potencial_ofensivo, 30)
-    guerrero.set_method(:atacar_a,
+    @guerrero = PrototypedObject.new
+    @guerrero.set_property(:energia, 100)
+    @guerrero.set_property(:potencial_defensivo, 10)
+    @guerrero.set_property(:potencial_ofensivo, 30)
+    @guerrero.set_method(:atacar_a,
                         lambda {
                             |otro_guerrero|
                           if (otro_guerrero.potencial_defensivo < self.potencial_ofensivo)
@@ -16,20 +16,20 @@ describe 'Prototype' do
                           end
                         });
 
-    guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
+    @guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
   }
 
   it 'Asigno propiedad a guerrero' do
 
 
-    expect(guerrero.energia).to eq(100)
+    expect(@guerrero.energia).to eq(100)
   end
 
   it 'Cuando un guerrero ataca a otro' do
 
 
-    otro_guerrero = guerrero.clone #clone es un metodo que ya viene definido en Ruby
-    guerrero.atacar_a otro_guerrero
+    otro_guerrero = @guerrero.clone #clone es un metodo que ya viene definido en Ruby
+    @guerrero.atacar_a otro_guerrero
     expect(otro_guerrero.energia).to eq(80)
 
   end
@@ -39,7 +39,7 @@ describe 'Prototype' do
 
     espadachin = PrototypedObject.new
 
-    espadachin.set_prototype(guerrero)
+    espadachin.set_prototype(@guerrero)
     espadachin.set_property(:habilidad, 0.5)
     espadachin.set_property(:potencial_espada, 30)
     espadachin.energia = 100
@@ -49,7 +49,7 @@ describe 'Prototype' do
       @potencial_ofensivo + self.potencial_espada * self.habilidad
     })
 
-    otro_guerrero = guerrero.clone
+    otro_guerrero = @guerrero.clone
 
     espadachin.atacar_a(otro_guerrero)
     expect(otro_guerrero.energia).to eq(85)
@@ -60,10 +60,10 @@ describe 'Prototype' do
 
 
     espadachin = PrototypedObject.new
-    espadachin.set_prototype(guerrero)
+    espadachin.set_prototype(@guerrero)
     espadachin.energia = 100
 
-    guerrero.set_method(:sanar, proc {
+    @guerrero.set_method(:sanar, proc {
       self.energia = self.energia + 10
     })
     espadachin.sanar
@@ -75,7 +75,7 @@ describe 'Prototype' do
 
     espadachin = PrototypedObject.new
 
-    espadachin.set_prototype(guerrero)
+    espadachin.set_prototype(@guerrero)
     espadachin.set_property(:habilidad, 0.5)
     espadachin.set_property(:potencial_espada, 30)
     espadachin.energia = 100
@@ -86,7 +86,7 @@ describe 'Prototype' do
     })
 
 
-    guerrero.set_method(:potencial_ofensivo, proc {
+    @guerrero.set_method(:potencial_ofensivo, proc {
       1000
     })
     expect(espadachin.potencial_ofensivo).to eq(25)
@@ -95,7 +95,7 @@ describe 'Prototype' do
 
   it 'Cuando creo una instancia de un objeto con un prototipo predefinido' do
 
-    Guerrero = PrototypedConstructor.new(guerrero)
+    Guerrero = PrototypedConstructor.new(@guerrero)
 
     un_guerrero = Guerrero.new(
         {energia: 100, potencial_ofensivo: 30, potencial_defensivo: 10}
@@ -106,7 +106,7 @@ describe 'Prototype' do
   it 'Cuando copia estado actual del prototipo' do
 
 
-    Guerrero = PrototypedConstructor.copy(guerrero)
+    Guerrero = PrototypedConstructor.copy(@guerrero)
 
     un_guerrero = Guerrero.new
 
@@ -116,7 +116,7 @@ describe 'Prototype' do
   it 'Cuando un constructor altera los metodos que entiende un objeto' do
 
 
-    Guerrero = PrototypedConstructor.copy(guerrero)
+    Guerrero = PrototypedConstructor.copy(@guerrero)
 
     Espadachin = Guerrero.extended (lambda {
         |habilidad, potencial_espada|
@@ -205,7 +205,7 @@ describe 'Prototype' do
 
   it 'Azucar sintactico sobre extended' do
 
-    Guerrero = PrototypedConstructor.copy(guerrero)
+    Guerrero = PrototypedConstructor.copy(@guerrero)
 
     Guerrero.energia = 100
     Guerrero.potencial_defensivo = 10
@@ -241,7 +241,7 @@ describe 'Prototype' do
     otro_guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
 
     guerrero.set_prototype(otro_guerrero)
-    expect(otro_guerrero.methods(false)).to eq(guerrero.methods(false))
+    expect(otro_guerrero.methods(false)).to eq(@guerrero.methods(false))
 
   end
 
@@ -261,15 +261,15 @@ describe 'Prototype' do
                              });
     otro_guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
 
-    guerrero.set_prototype(otro_guerrero)
-    guerrero.atacar_a(otro_guerrero)
+    @guerrero.set_prototype(otro_guerrero)
+    @guerrero.atacar_a(otro_guerrero)
     expect(otro_guerrero.energia).to eq(80)
   end
 
 
   it 'un prototipo guerrero deberia entender los mensajes de los multiples prototipos que forman al prototipo' do
 
-    Guerrero = PrototypedConstructor.copy(guerrero)
+    Guerrero = PrototypedConstructor.copy(@guerrero)
 
     proto_atacante = PrototypedObject.new
     proto_atacante.set_method(:atacar_a,
@@ -283,7 +283,7 @@ describe 'Prototype' do
     proto_defensor = PrototypedObject.new
     proto_defensor.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
 
-    guerrero.set_prototypes([proto_atacante, proto_defensor])
+    @guerrero.set_prototypes([proto_atacante, proto_defensor])
 
     un_guerrero = Guerrero.new
     otro_guerrero = Guerrero.new
@@ -322,7 +322,7 @@ describe 'Prototype' do
 it 'Test call_next' do
 
 
-   Guerrero = PrototypedConstructor.copy(guerrero)
+   Guerrero = PrototypedConstructor.copy(@guerrero)
 
    Guerrero.energia = 100
    Guerrero.potencial_defensivo = 10
@@ -332,14 +332,14 @@ it 'Test call_next' do
      self.habilidad = una_habilidad
      self.potencial_espada = un_potencial_espada
      self.potencial_ofensivo = proc {
-       self.call_next + self.potencial_espada * self.habilidad
+       self.call_next(potencial_ofensivo) + self.potencial_espada * self.habilidad
      }
    })
 
-   guerrero.potencial_ofensivo = 50
+   @guerrero.potencial_ofensivo = 50
    espadachin = Espadachin.new({energia: 100, potencial_defensivo: 10, habilidad: 0.5, potencial_espada: 30})
 
-   espadachin.set_prototype = guerrero
+   espadachin.set_prototype = @guerrero
    expect(espadachin.potencial_ofensivo).to eq(65)
 
 end
