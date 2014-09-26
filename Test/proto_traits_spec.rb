@@ -2,8 +2,7 @@ require 'rspec'
 require_relative '../src/domain/proto_trait_tipos'
 describe 'Prototype' do
 
-
-  before {
+ before {
     @guerrero = PrototypedObject.new
     @guerrero.set_property(:energia, 100)
     @guerrero.set_property(:potencial_defensivo, 10)
@@ -20,39 +19,37 @@ describe 'Prototype' do
   }
 
   it 'Asigno propiedad a guerrero' do
-
-
     expect(@guerrero.energia).to eq(100)
   end
 
   it 'Cuando un guerrero ataca a otro' do
-
-
     otro_guerrero = @guerrero.clone #clone es un metodo que ya viene definido en Ruby
     @guerrero.atacar_a otro_guerrero
     expect(otro_guerrero.energia).to eq(80)
-
   end
 
   it 'Asigno a un objeto su prototipo' do
-
-
     espadachin = PrototypedObject.new
-
     espadachin.set_prototype(@guerrero)
     espadachin.set_property(:habilidad, 0.5)
     espadachin.set_property(:potencial_espada, 30)
-    espadachin.energia = 100
-    espadachin.potencial_ofensivo = 10
+    res = espadachin.atributos.include?(:energia)
+    expect(espadachin.atributos.include?(:energia)).to eq(true)
+    puts espadachin.methods(false)
+    espadachin.energia= 100
+    #expect(espadachin.methods(false).include?)
 
-    espadachin.set_method(:potencial_ofensivo, proc {
-      @potencial_ofensivo + self.potencial_espada * self.habilidad
-    })
+    expect(espadachin.energia).to eq(100)
+    #espadachin.potencial_ofensivo = 10
 
-    otro_guerrero = @guerrero.clone
+    #espadachin.set_method(:potencial_ofensivo, proc {
+    #  @potencial_ofensivo + self.potencial_espada * self.habilidad
+   # })
 
-    espadachin.atacar_a(otro_guerrero)
-    expect(otro_guerrero.energia).to eq(85)
+    #otro_guerrero = @guerrero.clone
+
+    #espadachin.atacar_a(otro_guerrero)
+    #expect(otro_guerrero.energia).to eq(85)
 
   end
 
@@ -81,12 +78,11 @@ describe 'Prototype' do
     espadachin.energia = 100
     espadachin.potencial_ofensivo = 10
 
-    espadachin.set_method(:potencial_ofensivo, proc {
+    espadachin.set_method(:potencial_ofensivo, Proc.new {
       @potencial_ofensivo + self.potencial_espada * self.habilidad
     })
 
-
-    @guerrero.set_method(:potencial_ofensivo, proc {
+    @guerrero.set_method(:potencial_ofensivo, Proc.new {
       1000
     })
     expect(espadachin.potencial_ofensivo).to eq(25)
@@ -240,7 +236,7 @@ describe 'Prototype' do
                              });
     otro_guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
 
-    guerrero.set_prototype(otro_guerrero)
+    @guerrero.set_prototype(otro_guerrero)
     expect(otro_guerrero.methods(false)).to eq(@guerrero.methods(false))
 
   end
@@ -331,15 +327,15 @@ it 'Test call_next' do
        |una_habilidad, un_potencial_espada|
      self.habilidad = una_habilidad
      self.potencial_espada = un_potencial_espada
-     self.potencial_ofensivo = proc {
-       self.call_next(potencial_ofensivo) + self.potencial_espada * self.habilidad
+     self.potencial_ofensivo = Proc.new {
+       self.call_next(:potencial_ofensivo) + self.potencial_espada * self.habilidad
      }
    })
 
    @guerrero.potencial_ofensivo = 50
    espadachin = Espadachin.new({energia: 100, potencial_defensivo: 10, habilidad: 0.5, potencial_espada: 30})
 
-   espadachin.set_prototype = @guerrero
+   #espadachin.set_prototype(@guerrero)
    expect(espadachin.potencial_ofensivo).to eq(65)
 
 end

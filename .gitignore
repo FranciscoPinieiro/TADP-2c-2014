@@ -1,1 +1,7 @@
 Test/unit_test_spec.rb
+Test/my_proto_traits_spec.rb
+src/domain/my_proto_trait_tipos.rb
+.idea/workspace.xml
+.idea/TADP-2c-2014.iml
+src/domain/old_proto_trait_tipos.rb
+Test/old_proto_traits_spec.rb
