@@ -338,9 +338,9 @@ it 'Test call_next' do
        |una_habilidad, un_potencial_espada|
      self.habilidad = una_habilidad
      self.potencial_espada = un_potencial_espada
-     self.potencial_ofensivo = Proc.new {
+     self.set_method(:potencial_ofensivo, proc {
        self.call_next(:potencial_ofensivo) + self.potencial_espada * self.habilidad
-     }
+     })
    })
 
    @guerrero.potencial_ofensivo = 50

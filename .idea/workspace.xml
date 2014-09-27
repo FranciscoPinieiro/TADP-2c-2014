@@ -12,23 +12,23 @@
   </component>
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Crear_nuevo_objeto_con_nuevo_prototipo__solo_con_metodos___TADP_2c_2014.coverage" NAME="Prototype Crear nuevo objeto con nuevo prototipo (solo con metodos): TADP-2c-2014 Coverage Results" MODIFIED="1411160957987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype__TADP_2c_2014.coverage" NAME="Prototype: TADP-2c-2014 Coverage Results" MODIFIED="1410993040828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asignar_nuevos_atributos__Azucar_Sintactico_p1___TADP_2c_2014.coverage" NAME="Prototype Asignar nuevos atributos (Azucar Sintactico p1): TADP-2c-2014 Coverage Results" MODIFIED="1410993602250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_copia_estado_actual_del_prototipo__TADP_2c_2014.coverage" NAME="Prototype Cuando copia estado actual del prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1410991912593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@proto_traits_spec.coverage" NAME="proto_traits_spec Coverage Results" MODIFIED="1411685686119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@IRB_console__TADP_2c_2014.coverage" NAME="IRB console: TADP-2c-2014 Coverage Results" MODIFIED="1410308831923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Agregar_nuevos_metodos__Azucar_sintactico_p1___TADP_2c_2014.coverage" NAME="Prototype Agregar nuevos metodos (Azucar sintactico p1): TADP-2c-2014 Coverage Results" MODIFIED="1411156847349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@proto_trait_tipos.coverage" NAME="proto_trait_tipos Coverage Results" MODIFIED="1410993515437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/domain" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Run_test__test_tpPrototype_spec___TADP_2c_2014.coverage" NAME="Run test 'test_tpPrototype_spec': TADP-2c-2014 Coverage Results" MODIFIED="1410207067302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/domain" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_un_prototipo_guerrero_deberia_entender_los_mensajes_de_los_multiples_prototipos_que_forman_al_prototipo__TADP_2c_2014.coverage" NAME="Prototype un prototipo guerrero deberia entender los mensajes de los multiples prototipos que forman al prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1411144347314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asigno_a_un_objeto_su_prototipo__TADP_2c_2014.coverage" NAME="Prototype Asigno a un objeto su prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1411686955511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Test_call_next__TADP_2c_2014.coverage" NAME="Prototype Test call_next: TADP-2c-2014 Coverage Results" MODIFIED="1411208512661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asigno_propiedad_a_guerrero__TADP_2c_2014.coverage" NAME="Prototype Asigno propiedad a guerrero: TADP-2c-2014 Coverage Results" MODIFIED="1411581415701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_un_constructor_altera_los_metodos_que_entiende_un_objeto__TADP_2c_2014.coverage" NAME="Prototype Cuando un constructor altera los metodos que entiende un objeto: TADP-2c-2014 Coverage Results" MODIFIED="1411156923037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_creo_una_instancia_de_un_objeto_con_un_prototipo_predefinido__TADP_2c_2014.coverage" NAME="Prototype Cuando creo una instancia de un objeto con un prototipo predefinido: TADP-2c-2014 Coverage Results" MODIFIED="1410820024768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
     <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Crear_nuevo_objeto_con_nuevo_prototipo__con_metodos_y_atributos___TADP_2c_2014.coverage" NAME="Prototype Crear nuevo objeto con nuevo prototipo (con metodos y atributos): TADP-2c-2014 Coverage Results" MODIFIED="1411160961052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Run_spec__proto_traits_spec___TADP_2c_2014.coverage" NAME="Run spec 'proto_traits_spec': TADP-2c-2014 Coverage Results" MODIFIED="1410995988875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype__TADP_2c_2014.coverage" NAME="Prototype: TADP-2c-2014 Coverage Results" MODIFIED="1410993040828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_un_constructor_altera_los_metodos_que_entiende_un_objeto__TADP_2c_2014.coverage" NAME="Prototype Cuando un constructor altera los metodos que entiende un objeto: TADP-2c-2014 Coverage Results" MODIFIED="1411156923037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Crear_nuevo_objeto_con_nuevo_prototipo__solo_con_metodos___TADP_2c_2014.coverage" NAME="Prototype Crear nuevo objeto con nuevo prototipo (solo con metodos): TADP-2c-2014 Coverage Results" MODIFIED="1411160957987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_copia_estado_actual_del_prototipo__TADP_2c_2014.coverage" NAME="Prototype Cuando copia estado actual del prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1410991912593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asigno_a_un_objeto_su_prototipo__TADP_2c_2014.coverage" NAME="Prototype Asigno a un objeto su prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1411686955511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asigno_propiedad_a_guerrero__TADP_2c_2014.coverage" NAME="Prototype Asigno propiedad a guerrero: TADP-2c-2014 Coverage Results" MODIFIED="1411581415701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Run_spec__proto_traits_spec___TADP_2c_2014.coverage" NAME="Run spec 'proto_traits_spec': TADP-2c-2014 Coverage Results" MODIFIED="1411781946093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_un_prototipo_guerrero_deberia_entender_los_mensajes_de_los_multiples_prototipos_que_forman_al_prototipo__TADP_2c_2014.coverage" NAME="Prototype un prototipo guerrero deberia entender los mensajes de los multiples prototipos que forman al prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1411144347314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Agregar_nuevos_metodos__Azucar_sintactico_p1___TADP_2c_2014.coverage" NAME="Prototype Agregar nuevos metodos (Azucar sintactico p1): TADP-2c-2014 Coverage Results" MODIFIED="1411156847349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asignar_nuevos_atributos__Azucar_Sintactico_p1___TADP_2c_2014.coverage" NAME="Prototype Asignar nuevos atributos (Azucar Sintactico p1): TADP-2c-2014 Coverage Results" MODIFIED="1410993602250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Test_call_next__TADP_2c_2014.coverage" NAME="Prototype Test call_next: TADP-2c-2014 Coverage Results" MODIFIED="1411208512661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@proto_traits_spec.coverage" NAME="proto_traits_spec Coverage Results" MODIFIED="1411685686119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Run_test__test_tpPrototype_spec___TADP_2c_2014.coverage" NAME="Run test 'test_tpPrototype_spec': TADP-2c-2014 Coverage Results" MODIFIED="1410207067302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/domain" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_creo_una_instancia_de_un_objeto_con_un_prototipo_predefinido__TADP_2c_2014.coverage" NAME="Prototype Cuando creo una instancia de un objeto con un prototipo predefinido: TADP-2c-2014 Coverage Results" MODIFIED="1410820024768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@IRB_console__TADP_2c_2014.coverage" NAME="IRB console: TADP-2c-2014 Coverage Results" MODIFIED="1410308831923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@proto_trait_tipos.coverage" NAME="proto_trait_tipos Coverage Results" MODIFIED="1410993515437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/domain" MODULE_NAME="TADP-2c-2014" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -41,28 +41,46 @@
     <favorites_list name="TADP-2c-2014" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="proto_traits_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/proto_traits_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="5967">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proto_trait_tipos.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/domain/proto_trait_tipos.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.027868852" vertical-offset="3706" max-vertical-offset="8313">
-              <caret line="219" column="3" selection-start-line="219" selection-start-column="3" selection-end-line="219" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.526435">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="proto_traits_spec.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Test/proto_traits_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.15" vertical-offset="5746" max-vertical-offset="6086">
+                  <caret line="341" column="19" selection-start-line="341" selection-start-column="19" selection-end-line="341" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="proto_trait_tipos.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/domain/proto_trait_tipos.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="3479" max-vertical-offset="4063">
+                  <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="proto_trait_tipos.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/domain/proto_trait_tipos.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.29411766" vertical-offset="2535" max-vertical-offset="4063">
+                  <caret line="155" column="4" selection-start-line="155" selection-start-column="4" selection-end-line="155" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -80,8 +98,8 @@
         <option value="$APPLICATION_HOME_DIR$/rubystubs20/object.rb" />
         <option value="$PROJECT_DIR$/src/domain/test_tpPrototype_spec.rb" />
         <option value="$USER_HOME$/Downloads/proto_traits_spec.rb" />
-        <option value="$PROJECT_DIR$/Test/proto_traits_spec.rb" />
         <option value="$USER_HOME$/Downloads/proto_trait_tipos.rb" />
+        <option value="$PROJECT_DIR$/Test/proto_traits_spec.rb" />
         <option value="$PROJECT_DIR$/src/domain/proto_trait_tipos.rb" />
       </list>
     </option>
@@ -118,6 +136,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,7 +189,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,7 +202,7 @@
     <property name="recentsLimit" value="5" />
     <property name="project.settings.patched" value="true" />
   </component>
-  <component name="RunManager" selected="RSpec.Prototype Asigno a un objeto su prototipo: TADP-2c-2014">
+  <component name="RunManager" selected="RSpec.Run spec 'proto_traits_spec': TADP-2c-2014">
     <configuration default="false" name="Prototype Crear nuevo objeto con nuevo prototipo (con metodos y atributos): TADP-2c-2014" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="TADP-2c-2014" />
@@ -281,24 +299,6 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="proto_traits_spec" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$USER_HOME$/Downloads" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$USER_HOME$/Downloads/proto_traits_spec.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="Prototype Asigno a un objeto su prototipo: TADP-2c-2014" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="TADP-2c-2014" />
@@ -319,6 +319,38 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Prototype Asigno a un objeto su prototipo" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run spec 'proto_traits_spec': TADP-2c-2014" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="TADP-2c-2014" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/Test" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Test/proto_traits_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -423,15 +455,16 @@
       <item index="0" class="java.lang.String" itemvalue="RSpec.Prototype Crear nuevo objeto con nuevo prototipo (con metodos y atributos): TADP-2c-2014" />
       <item index="1" class="java.lang.String" itemvalue="RSpec.Prototype Test call_next: TADP-2c-2014" />
       <item index="2" class="java.lang.String" itemvalue="RSpec.Prototype Asigno propiedad a guerrero: TADP-2c-2014" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.proto_traits_spec" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Prototype Asigno a un objeto su prototipo: TADP-2c-2014" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Prototype Asigno a un objeto su prototipo: TADP-2c-2014" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'proto_traits_spec': TADP-2c-2014" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Prototype Asigno a un objeto su prototipo: TADP-2c-2014" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Prototype Asigno propiedad a guerrero: TADP-2c-2014" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Prototype Test call_next: TADP-2c-2014" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Prototype Crear nuevo objeto con nuevo prototipo (con metodos y atributos): TADP-2c-2014" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'proto_traits_spec': TADP-2c-2014" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Prototype Asigno a un objeto su prototipo: TADP-2c-2014" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Prototype Asigno propiedad a guerrero: TADP-2c-2014" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Prototype Test call_next: TADP-2c-2014" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Prototype Crear nuevo objeto con nuevo prototipo (con metodos y atributos): TADP-2c-2014" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +501,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -476,19 +509,19 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31791046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17715959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17975831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399384" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4357035" sideWeight="0.25878906" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20597485" sideWeight="0.74121094" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35434413" sideWeight="0.74121094" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -506,9 +539,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5151057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -535,16 +568,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Test/proto_traits_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="5967">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6086">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/proto_trait_tipos.rb">
+    <entry file="file://$PROJECT_DIR$/src/domain/proto_trait_tipos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4284">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3723" max-vertical-offset="3995">
+          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/proto_traits_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="5967">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -660,33 +701,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/proto_traits_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5933014" vertical-offset="585" max-vertical-offset="6069">
-          <caret line="49" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/proto_trait_tipos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4284">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/proto_traits_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="5967">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.15" vertical-offset="5746" max-vertical-offset="6086">
+          <caret line="341" column="19" selection-start-line="341" selection-start-column="19" selection-end-line="341" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/proto_trait_tipos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027868852" vertical-offset="3706" max-vertical-offset="8313">
-          <caret line="219" column="3" selection-start-line="219" selection-start-column="3" selection-end-line="219" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.29411766" vertical-offset="2535" max-vertical-offset="4063">
+          <caret line="155" column="4" selection-start-line="155" selection-start-column="4" selection-end-line="155" selection-end-column="4" />
           <folding />
         </state>
       </provider>

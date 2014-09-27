@@ -149,9 +149,13 @@ module Prototyped
   end
 
   def call_next (a_method)
-    name_method = caller[0][/`.*'/][1..-2]
-    method_block = self.find_block_in_prototypes(a_method, self.call_next_iteration)
-    result = self.instance_eval &method_block
+    #name_method = caller[0][/`.*'/][1..-2]
+    #method_block = self.find_block_in_prototypes(a_method, self.call_next_iteration)
+    #result = self.instance_eval &method_block
+    proto_list = prototypes.select{|a_prototype| a_prototype.respond_to?(a_method)}
+    if proto_list.size != 0 then
+      result = proto_list[0].send a_method
+    end
     result
   end
 
