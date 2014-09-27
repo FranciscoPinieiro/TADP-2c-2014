@@ -33,14 +33,10 @@ describe 'Prototype' do
     espadachin.set_prototype(@guerrero)
     espadachin.set_property(:habilidad, 0.5)
     espadachin.set_property(:potencial_espada, 30)
-    res = espadachin.atributos.include?(:energia)
     expect(espadachin.atributos.include?(:energia)).to eq(true)
-    puts espadachin.methods(false)
     espadachin.energia= 100
-    #expect(espadachin.methods(false).include?)
 
     expect(espadachin.energia).to eq(100)
-    #espadachin.potencial_ofensivo = 10
 
     #espadachin.set_method(:potencial_ofensivo, proc {
     #  @potencial_ofensivo + self.potencial_espada * self.habilidad
@@ -54,8 +50,6 @@ describe 'Prototype' do
   end
 
   it 'Cuando modifico un prototipo, se modifican las instancias que lo tengan como prototipo' do
-
-
     espadachin = PrototypedObject.new
     espadachin.set_prototype(@guerrero)
     espadachin.energia = 100
@@ -68,7 +62,26 @@ describe 'Prototype' do
 
   end
 
-  it 'No son afectados los metodos que fueron redefinidos por el objeto derivado' do
+  it 'El clon no se afecta con los cambios en su original' do
+    otro_guerrero = @guerrero.clone
+    @guerrero.set_method(:sanar, proc {
+      self.energia = self.energia + 10
+    })
+    expect{otro_guerrero.sanar}.to raise_error(NoMethodError)
+  end
+
+ it 'No son afectados los metodos que fueron redefinidos por el objeto derivado en la clonacion' do
+
+   espadachin = @guerrero.clone
+
+   @guerrero.set_method(:potencial_ofensivo, Proc.new {
+     1000
+   })
+   expect(espadachin.potencial_ofensivo).to eq(30)
+
+ end
+
+  it 'No son afectados los metodos redefinidos por un objeto prototipado cuando se redefinen en su prototipo' do
 
     espadachin = PrototypedObject.new
 
@@ -101,7 +114,6 @@ describe 'Prototype' do
 
   it 'Cuando copia estado actual del prototipo' do
 
-
     Guerrero = PrototypedConstructor.copy(@guerrero)
 
     un_guerrero = Guerrero.new
@@ -110,7 +122,6 @@ describe 'Prototype' do
   end
 
   it 'Cuando un constructor altera los metodos que entiende un objeto' do
-
 
     Guerrero = PrototypedConstructor.copy(@guerrero)
 
