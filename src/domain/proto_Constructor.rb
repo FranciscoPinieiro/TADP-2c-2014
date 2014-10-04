@@ -2,7 +2,6 @@
 class PrototypedConstructor
 
   class << self
-    alias_method :new_name, :new
 
     def new( a_prototype)
       a_object = PrototypedObject.new

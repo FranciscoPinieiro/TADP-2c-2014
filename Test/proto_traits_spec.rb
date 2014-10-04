@@ -57,15 +57,6 @@ describe 'Prototype' do
 
     expect(espadachin.energia).to eq(100)
 
-    #espadachin.set_method(:potencial_ofensivo, proc {
-    #  @potencial_ofensivo + self.potencial_espada * self.habilidad
-   # })
-
-    #otro_guerrero = @guerrero.clone
-
-    #espadachin.atacar_a(otro_guerrero)
-    #expect(otro_guerrero.energia).to eq(85)
-
   end
 
   it 'Cuando modifico un prototipo, se modifican las instancias que lo tengan como prototipo' do
@@ -186,9 +177,6 @@ describe 'Prototype' do
   end
 
   it 'Azucar Sintactico sobre new' do
-    #PrototypedObject.new {
-    #   puts 'bloque desde el new'
-    #}
     guerrero_proto = PrototypedObject.new {
       self.energia = 100
       self.potencial_ofensivo = 30
@@ -222,7 +210,6 @@ describe 'Prototype' do
 
     expect(atila.potencial_ofensivo).to eq(50)
     proto_guerrero = Guerrero.prototype
-    puts proto_guerrero.methods(false)
     proto_guerrero.potencial_ofensivo = proc {
       1000
     } #no cumple el assertion ya que el setter "potencial_ofensivo=" esta definido y nosotros implementamos azucar sintactico con method_missing

@@ -102,7 +102,6 @@ module Prototyped
     else
       self.set_property(a_key, a_value)
     end
-    puts "Agrego metodo"
   end
 
   def set_prototype (a_prototype)
@@ -152,9 +151,6 @@ module Prototyped
   end
 
   def call_next (a_method)
-    #name_method = caller[0][/`.*'/][1..-2]
-    #method_block = self.find_block_in_prototypes(a_method, self.call_next_iteration)
-    #result = self.instance_eval &method_block
     proto_list = prototypes.select{|a_prototype| a_prototype.respond_to?(a_method)}
     if proto_list.size != 0 then
       result = proto_list[0].send a_method
@@ -190,9 +186,7 @@ module Prototyped
   end
 
   def with_properties(block)
-    #a_map = block.flat_map
     an_object = self.clone
-    #a_map = args[0]
     block.each { |a_key| an_object.set_property( a_key, nil) }
     an_object
   end
