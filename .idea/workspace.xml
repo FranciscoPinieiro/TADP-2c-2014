@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype__TADP_2c_2014.coverage" NAME="Prototype: TADP-2c-2014 Coverage Results" MODIFIED="1412464541788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype__TADP_2c_2014.coverage" NAME="Prototype: TADP-2c-2014 Coverage Results" MODIFIED="1412465051287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
     <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Crear_nuevo_objeto_con_nuevo_prototipo__solo_con_metodos___TADP_2c_2014.coverage" NAME="Prototype Crear nuevo objeto con nuevo prototipo (solo con metodos): TADP-2c-2014 Coverage Results" MODIFIED="1412383661333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
     <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Azucar_Sintactico_para_obtener_prototipos__TADP_2c_2014.coverage" NAME="Prototype Azucar Sintactico para obtener prototipos: TADP-2c-2014 Coverage Results" MODIFIED="1412386471879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
     <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_copia_estado_actual_del_prototipo__TADP_2c_2014.coverage" NAME="Prototype Cuando copia estado actual del prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383545942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
@@ -85,8 +85,8 @@
       <file leaf-file-name="proto_traits_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/proto_traits_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10119048" vertical-offset="0" max-vertical-offset="5899">
-              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            <state vertical-scroll-proportion="-1.9007937" vertical-offset="5106" max-vertical-offset="5610">
+              <caret line="244" column="12" selection-start-line="244" selection-start-column="12" selection-end-line="244" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -811,8 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/proto_traits_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10119048" vertical-offset="0" max-vertical-offset="5899">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        <state vertical-scroll-proportion="-1.9007937" vertical-offset="5106" max-vertical-offset="5610">
+          <caret line="244" column="12" selection-start-line="244" selection-start-column="12" selection-end-line="244" selection-end-column="12" />
           <folding />
         </state>
       </provider>

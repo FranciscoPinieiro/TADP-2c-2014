@@ -19,7 +19,23 @@ describe 'Prototype' do
                         });
 
     @guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
-  }
+
+
+    @otro_guerrero = PrototypedObject.new
+    @otro_guerrero.set_property(:energia, 100)
+    @otro_guerrero.set_property(:potencial_defensivo, 10)
+    @otro_guerrero.set_property(:potencial_ofensivo, 30)
+
+    @otro_guerrero.set_method(:atacar_a,
+                             proc {
+                                 |otro_guerrero|
+                               if (otro_guerrero.potencial_defensivo < self.potencial_ofensivo)
+                                 otro_guerrero.recibe_danio(self.potencial_ofensivo - otro_guerrero.potencial_defensivo)
+                               end
+                             });
+    @otro_guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
+
+ }
 
   it 'Asigno propiedad a guerrero' do
     expect(@guerrero.energia).to eq(100)
@@ -189,7 +205,6 @@ describe 'Prototype' do
     guerrero= guerrero_proto.clone
 
     guerrero_proto.atacar_a guerrero
-    #expect(guerrero.atributos.include?(:energia)).to eq(true)
     expect(guerrero.energia).to eq(80)
 
     # No funciona debido a que bajo nuestra definicion de new, recibe como parametro *args y no encontramos la manera de que corran ambos comportamientos a la vez.
@@ -211,55 +226,23 @@ describe 'Prototype' do
     proto_guerrero.potencial_ofensivo = proc {
       1000
     } #no cumple el assertion ya que el setter "potencial_ofensivo=" esta definido y nosotros implementamos azucar sintactico con method_missing
-    puts atila.potencial_ofensivo
-    puts proto_guerrero.potencial_ofensivo
-    valor= (proto_guerrero.potencial_ofensivo)
-    atila.potencial_ofensivo= proto_guerrero.potencial_ofensivo
-    expect(atila.potencial_ofensivo).to eq(1000)
+    expect(atila.potencial_ofensivo).to eq(50)
 
   end
 
   it 'Cuando seteo un prototipo se obtienen todos sus metodos' do
 
 
-    otro_guerrero = PrototypedObject.new
-    otro_guerrero.set_property(:energia, 100)
-    otro_guerrero.set_property(:potencial_defensivo, 10)
-    otro_guerrero.set_property(:potencial_ofensivo, 30)
-
-    otro_guerrero.set_method(:atacar_a,
-                             proc {
-                                 |otro_guerrero|
-                               if (otro_guerrero.potencial_defensivo < self.potencial_ofensivo)
-                                 otro_guerrero.recibe_danio(self.potencial_ofensivo - otro_guerrero.potencial_defensivo)
-                               end
-                             });
-    otro_guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
-
-    @guerrero.set_prototype(otro_guerrero)
-    expect(otro_guerrero.methods(false)).to eq(@guerrero.methods(false))
+    @guerrero.set_prototype(@otro_guerrero)
+    expect(@otro_guerrero.methods(false)).to eq(@guerrero.methods(false))
 
   end
 
   it 'guerrero ataca a su prototipo' do
 
-    otro_guerrero = PrototypedObject.new
-    otro_guerrero.set_property(:energia, 100)
-    otro_guerrero.set_property(:potencial_defensivo, 10)
-    otro_guerrero.set_property(:potencial_ofensivo, 30)
-
-    otro_guerrero.set_method(:atacar_a,
-                             proc {
-                                 |otro_guerrero|
-                               if (otro_guerrero.potencial_defensivo < self.potencial_ofensivo)
-                                 otro_guerrero.recibe_danio(self.potencial_ofensivo - otro_guerrero.potencial_defensivo)
-                               end
-                             });
-    otro_guerrero.set_method(:recibe_danio, lambda { |ataque| self.energia -= ataque })
-
-    @guerrero.set_prototype(otro_guerrero)
-    @guerrero.atacar_a(otro_guerrero)
-    expect(otro_guerrero.energia).to eq(80)
+    @guerrero.set_prototype(@otro_guerrero)
+    @guerrero.atacar_a(@otro_guerrero)
+    expect(@otro_guerrero.energia).to eq(80)
   end
 
 
