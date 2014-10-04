@@ -1,5 +1,8 @@
 require 'rspec'
 require_relative '../src/domain/proto_trait_tipos'
+require_relative '../src/domain/proto_module'
+require '../src/domain/proto_Constructor'
+
 describe 'Prototype' do
 
  before {
@@ -208,6 +211,10 @@ describe 'Prototype' do
     proto_guerrero.potencial_ofensivo = proc {
       1000
     } #no cumple el assertion ya que el setter "potencial_ofensivo=" esta definido y nosotros implementamos azucar sintactico con method_missing
+    puts atila.potencial_ofensivo
+    puts proto_guerrero.potencial_ofensivo
+    valor= (proto_guerrero.potencial_ofensivo)
+    atila.potencial_ofensivo= proto_guerrero.potencial_ofensivo
     expect(atila.potencial_ofensivo).to eq(1000)
 
   end
