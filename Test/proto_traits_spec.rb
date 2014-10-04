@@ -174,7 +174,6 @@ describe 'Prototype' do
       self.energia = 100
       self.potencial_ofensivo = 30
       self.potencial_defensivo = 10
-
       self.atacar_a = proc { |otro_guerrero|
         if (otro_guerrero.potencial_defensivo < self.potencial_ofensivo)
           otro_guerrero.recibe_danio(self.potencial_ofensivo - otro_guerrero.potencial_defensivo)
@@ -183,6 +182,7 @@ describe 'Prototype' do
 
       self.recibe_danio = proc { |ataque| self.energia -= ataque }
     }
+
     guerrero= guerrero_proto.clone
 
     guerrero_proto.atacar_a guerrero
@@ -201,32 +201,14 @@ describe 'Prototype' do
     atila = Guerrero.new(
         {energia: 100, potencial_ofensivo: 50, potencial_defensivo: 30}
     )
+
     expect(atila.potencial_ofensivo).to eq(50)
     proto_guerrero = Guerrero.prototype
+    puts proto_guerrero.methods(false)
     proto_guerrero.potencial_ofensivo = proc {
       1000
     } #no cumple el assertion ya que el setter "potencial_ofensivo=" esta definido y nosotros implementamos azucar sintactico con method_missing
     expect(atila.potencial_ofensivo).to eq(1000)
-
-  end
-
-  it 'Azucar sintactico sobre extended' do
-
-    Guerrero = PrototypedConstructor.copy(@guerrero)
-
-    Guerrero.energia = 100
-    Guerrero.potencial_defensivo = 10
-
-    Espadachin = Guerrero.extended (lambda {
-        |una_habilidad, un_potencial_espada|
-      self.habilidad = una_habilidad
-      self.potencial_espada = un_potencial_espada
-      self.potencial_ofensivo = proc {
-        @potencial_ofensivo + self.potencial_espada * self.habilidad
-      }
-    })
-    espadachin = Espadachin.new({energia: 100, potencial_ofensivo: 30, potencial_defensivo: 10, habilidad: 0.5, potencial_espada: 30})
-    expect(espadachin.potencial_ofensivo).to eq(45)
 
   end
 

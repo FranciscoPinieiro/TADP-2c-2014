@@ -99,9 +99,10 @@ module Prototyped
   def set_identifier(a_key, a_value)
     if a_value.respond_to? :call
       self.set_method(a_key, a_value)
-    else
+        else
       self.set_property(a_key, a_value)
-    end
+        end
+    puts "Agrego metodo"
   end
 
   def set_prototype (a_prototype)
@@ -123,7 +124,9 @@ module Prototyped
     }
   end
 
-  def new *args, &block
+
+
+  def new *args, &a_block
     args.flat_map
     a_protoObject = self.clone
 
@@ -137,7 +140,7 @@ module Prototyped
           end
         }
     end
-    a_protoObject.instance_eval &block unless block == nil
+    a_object.instance_exec 0,0, &a_block unless a_block == nil
     a_protoObject
   end
 
@@ -176,11 +179,14 @@ module Prototyped
 
   def method_missing(method_name, *args)
     #Validar que el nombre del metodo tenga un igual. Si no se cumple, super
-      if (method_name.to_s.include? "=")
-        set_identifier(method_name.to_s.tr('=',''), args[0])
-      else
-        super
+
+       if (method_name.to_s.include? "=")
+         set_identifier(method_name.to_s.tr('=',''), args[0])
+       else
+         super
+
       end
+
  end
 
   def with_properties(block)
@@ -195,6 +201,28 @@ end
 
 class PrototypedObject
   include Prototyped
+
+
+class << self
+alias_method :new_name, :new
+
+  def new &block
+    object = self.new_name
+    if( block == nil) then
+      object
+
+  else
+
+  object.instance_exec 0,0, &block
+  object
+  end
+
+
+
+  end
+end
+
+
 end
 
 class PrototypedConstructor
