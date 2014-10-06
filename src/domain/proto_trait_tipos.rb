@@ -13,14 +13,11 @@ alias_method :new_name, :new
     if( block == nil) then
       object
 
-  else
+    else
 
-  object.instance_exec 0,0, &block
-  object
-  end
-
-
-
+      object.instance_exec 0,0, &block
+     object
+    end
   end
 end
 

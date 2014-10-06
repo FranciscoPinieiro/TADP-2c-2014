@@ -12,33 +12,33 @@
   </component>
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype__TADP_2c_2014.coverage" NAME="Prototype: TADP-2c-2014 Coverage Results" MODIFIED="1412465436008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Crear_nuevo_objeto_con_nuevo_prototipo__solo_con_metodos___TADP_2c_2014.coverage" NAME="Prototype Crear nuevo objeto con nuevo prototipo (solo con metodos): TADP-2c-2014 Coverage Results" MODIFIED="1412383661333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Azucar_Sintactico_para_obtener_prototipos__TADP_2c_2014.coverage" NAME="Prototype Azucar Sintactico para obtener prototipos: TADP-2c-2014 Coverage Results" MODIFIED="1412386471879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_copia_estado_actual_del_prototipo__TADP_2c_2014.coverage" NAME="Prototype Cuando copia estado actual del prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383545942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@proto_traits_spec.coverage" NAME="proto_traits_spec Coverage Results" MODIFIED="1411685686119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_modifico_un_prototipo__se_modifican_las_instancias_que_lo_tengan_como_prototipo__TADP_2c_2014.coverage" NAME="Prototype Cuando modifico un prototipo, se modifican las instancias que lo tengan como prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383532518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_No_son_afectados_los_metodos_redefinidos_por_un_objeto_prototipado_cuando_se_redefinen_en_su_prototipo__TADP_2c_2014.coverage" NAME="Prototype No son afectados los metodos redefinidos por un objeto prototipado cuando se redefinen en su prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383540518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Run_test__test_tpPrototype_spec___TADP_2c_2014.coverage" NAME="Run test 'test_tpPrototype_spec': TADP-2c-2014 Coverage Results" MODIFIED="1410207067302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/domain" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_seteo_un_prototipo_se_obtienen_todos_sus_metodos__TADP_2c_2014.coverage" NAME="Prototype Cuando seteo un prototipo se obtienen todos sus metodos: TADP-2c-2014 Coverage Results" MODIFIED="1412383651738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_guerrero_ataca_a_su_prototipo__TADP_2c_2014.coverage" NAME="Prototype guerrero ataca a su prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383654627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Azucar_Sintactico_sobre_new__TADP_2c_2014.coverage" NAME="Prototype Azucar Sintactico sobre new: TADP-2c-2014 Coverage Results" MODIFIED="1412383556631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asigno_propiedad_a_guerrero__TADP_2c_2014.coverage" NAME="Prototype Asigno propiedad a guerrero: TADP-2c-2014 Coverage Results" MODIFIED="1412383520937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_El_clon_no_se_afecta_con_los_cambios_en_su_original__TADP_2c_2014.coverage" NAME="Prototype El clon no se afecta con los cambios en su original: TADP-2c-2014 Coverage Results" MODIFIED="1412383535502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_un_constructor_altera_los_metodos_que_entiende_un_objeto__TADP_2c_2014.coverage" NAME="Prototype Cuando un constructor altera los metodos que entiende un objeto: TADP-2c-2014 Coverage Results" MODIFIED="1412383548349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_creo_una_instancia_de_un_objeto_con_un_prototipo_predefinido__TADP_2c_2014.coverage" NAME="Prototype Cuando creo una instancia de un objeto con un prototipo predefinido: TADP-2c-2014 Coverage Results" MODIFIED="1412383543562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Crear_nuevo_objeto_con_nuevo_prototipo__con_metodos_y_atributos___TADP_2c_2014.coverage" NAME="Prototype Crear nuevo objeto con nuevo prototipo (con metodos y atributos): TADP-2c-2014 Coverage Results" MODIFIED="1412383664069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Run_spec__proto_traits_spec___TADP_2c_2014.coverage" NAME="Run spec 'proto_traits_spec': TADP-2c-2014 Coverage Results" MODIFIED="1411781946093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asignar_nuevos_atributos__Azucar_Sintactico_p1___TADP_2c_2014.coverage" NAME="Prototype Asignar nuevos atributos (Azucar Sintactico p1): TADP-2c-2014 Coverage Results" MODIFIED="1412383551021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@IRB_console__TADP_2c_2014.coverage" NAME="IRB console: TADP-2c-2014 Coverage Results" MODIFIED="1410308831923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Agregar_nuevos_metodos__Azucar_sintactico_p1___TADP_2c_2014.coverage" NAME="Prototype Agregar nuevos metodos (Azucar sintactico p1): TADP-2c-2014 Coverage Results" MODIFIED="1412383553695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
     <SUITE FILE_PATH="coverage/TADP-2c-2014@proto_trait_tipos.coverage" NAME="proto_trait_tipos Coverage Results" MODIFIED="1410993515437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/domain" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_un_guerrero_ataca_a_otro__TADP_2c_2014.coverage" NAME="Prototype Cuando un guerrero ataca a otro: TADP-2c-2014 Coverage Results" MODIFIED="1412383523141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@IRB_console__TADP_2c_2014.coverage" NAME="IRB console: TADP-2c-2014 Coverage Results" MODIFIED="1410308831923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_El_clon_no_se_afecta_con_los_cambios_en_su_original__TADP_2c_2014.coverage" NAME="Prototype El clon no se afecta con los cambios en su original: TADP-2c-2014 Coverage Results" MODIFIED="1412383535502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Crear_nuevo_objeto_con_nuevo_prototipo__con_metodos_y_atributos___TADP_2c_2014.coverage" NAME="Prototype Crear nuevo objeto con nuevo prototipo (con metodos y atributos): TADP-2c-2014 Coverage Results" MODIFIED="1412383664069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Run_test__test_tpPrototype_spec___TADP_2c_2014.coverage" NAME="Run test 'test_tpPrototype_spec': TADP-2c-2014 Coverage Results" MODIFIED="1410207067302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/domain" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Agregar_nuevos_metodos__Azucar_sintactico_p1___TADP_2c_2014.coverage" NAME="Prototype Agregar nuevos metodos (Azucar sintactico p1): TADP-2c-2014 Coverage Results" MODIFIED="1412383553695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_guerrero_ataca_a_su_prototipo__TADP_2c_2014.coverage" NAME="Prototype guerrero ataca a su prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383654627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asigno_propiedad_a_guerrero__TADP_2c_2014.coverage" NAME="Prototype Asigno propiedad a guerrero: TADP-2c-2014 Coverage Results" MODIFIED="1412383520937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype__TADP_2c_2014.coverage" NAME="Prototype: TADP-2c-2014 Coverage Results" MODIFIED="1412618738669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
     <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_un_prototipo_guerrero_deberia_entender_los_mensajes_de_los_multiples_prototipos_que_forman_al_prototipo__TADP_2c_2014.coverage" NAME="Prototype un prototipo guerrero deberia entender los mensajes de los multiples prototipos que forman al prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383657854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_No_son_afectados_los_metodos_que_fueron_redefinidos_por_el_objeto_derivado_en_la_clonacion__TADP_2c_2014.coverage" NAME="Prototype No son afectados los metodos que fueron redefinidos por el objeto derivado en la clonacion: TADP-2c-2014 Coverage Results" MODIFIED="1412383537726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Azucar_sintactico_sobre_extended__TADP_2c_2014.coverage" NAME="Prototype Azucar sintactico sobre extended: TADP-2c-2014 Coverage Results" MODIFIED="1412383626384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
-    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asigno_a_un_objeto_su_prototipo__TADP_2c_2014.coverage" NAME="Prototype Asigno a un objeto su prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383528275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Azucar_Sintactico_para_obtener_prototipos__TADP_2c_2014.coverage" NAME="Prototype Azucar Sintactico para obtener prototipos: TADP-2c-2014 Coverage Results" MODIFIED="1412386471879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_un_guerrero_ataca_a_otro__TADP_2c_2014.coverage" NAME="Prototype Cuando un guerrero ataca a otro: TADP-2c-2014 Coverage Results" MODIFIED="1412383523141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_seteo_un_prototipo_se_obtienen_todos_sus_metodos__TADP_2c_2014.coverage" NAME="Prototype Cuando seteo un prototipo se obtienen todos sus metodos: TADP-2c-2014 Coverage Results" MODIFIED="1412383651738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_creo_una_instancia_de_un_objeto_con_un_prototipo_predefinido__TADP_2c_2014.coverage" NAME="Prototype Cuando creo una instancia de un objeto con un prototipo predefinido: TADP-2c-2014 Coverage Results" MODIFIED="1412383543562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_un_constructor_altera_los_metodos_que_entiende_un_objeto__TADP_2c_2014.coverage" NAME="Prototype Cuando un constructor altera los metodos que entiende un objeto: TADP-2c-2014 Coverage Results" MODIFIED="1412383548349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
     <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Test_call_next__TADP_2c_2014.coverage" NAME="Prototype Test call_next: TADP-2c-2014 Coverage Results" MODIFIED="1412383666781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_No_son_afectados_los_metodos_redefinidos_por_un_objeto_prototipado_cuando_se_redefinen_en_su_prototipo__TADP_2c_2014.coverage" NAME="Prototype No son afectados los metodos redefinidos por un objeto prototipado cuando se redefinen en su prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383540518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_copia_estado_actual_del_prototipo__TADP_2c_2014.coverage" NAME="Prototype Cuando copia estado actual del prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383545942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asigno_a_un_objeto_su_prototipo__TADP_2c_2014.coverage" NAME="Prototype Asigno a un objeto su prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383528275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Run_spec__proto_traits_spec___TADP_2c_2014.coverage" NAME="Run spec 'proto_traits_spec': TADP-2c-2014 Coverage Results" MODIFIED="1411781946093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Azucar_Sintactico_sobre_new__TADP_2c_2014.coverage" NAME="Prototype Azucar Sintactico sobre new: TADP-2c-2014 Coverage Results" MODIFIED="1412383556631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@proto_traits_spec.coverage" NAME="proto_traits_spec Coverage Results" MODIFIED="1411685686119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Crear_nuevo_objeto_con_nuevo_prototipo__solo_con_metodos___TADP_2c_2014.coverage" NAME="Prototype Crear nuevo objeto con nuevo prototipo (solo con metodos): TADP-2c-2014 Coverage Results" MODIFIED="1412383661333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Asignar_nuevos_atributos__Azucar_Sintactico_p1___TADP_2c_2014.coverage" NAME="Prototype Asignar nuevos atributos (Azucar Sintactico p1): TADP-2c-2014 Coverage Results" MODIFIED="1412383551021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Cuando_modifico_un_prototipo__se_modifican_las_instancias_que_lo_tengan_como_prototipo__TADP_2c_2014.coverage" NAME="Prototype Cuando modifico un prototipo, se modifican las instancias que lo tengan como prototipo: TADP-2c-2014 Coverage Results" MODIFIED="1412383532518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_Azucar_sintactico_sobre_extended__TADP_2c_2014.coverage" NAME="Prototype Azucar sintactico sobre extended: TADP-2c-2014 Coverage Results" MODIFIED="1412383626384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
+    <SUITE FILE_PATH="coverage/TADP-2c-2014@Prototype_No_son_afectados_los_metodos_que_fueron_redefinidos_por_el_objeto_derivado_en_la_clonacion__TADP_2c_2014.coverage" NAME="Prototype No son afectados los metodos que fueron redefinidos por el objeto derivado en la clonacion: TADP-2c-2014 Coverage Results" MODIFIED="1412383537726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="TADP-2c-2014" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -55,8 +55,8 @@
       <file leaf-file-name="proto_trait_tipos.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/proto_trait_tipos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -65,8 +65,8 @@
       <file leaf-file-name="proto_Constructor.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/proto_Constructor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -75,8 +75,8 @@
       <file leaf-file-name="proto_module.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/proto_module.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3400">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2077" max-vertical-offset="3400">
+              <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -85,8 +85,8 @@
       <file leaf-file-name="proto_traits_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/proto_traits_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08411215" vertical-offset="176" max-vertical-offset="5389">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.44663382" vertical-offset="0" max-vertical-offset="5389">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -111,10 +111,10 @@
         <option value="$PROJECT_DIR$/src/domain/test_tpPrototype_spec.rb" />
         <option value="$USER_HOME$/Downloads/proto_traits_spec.rb" />
         <option value="$USER_HOME$/Downloads/proto_trait_tipos.rb" />
-        <option value="$PROJECT_DIR$/src/domain/proto_trait_tipos.rb" />
-        <option value="$PROJECT_DIR$/Test/proto_traits_spec.rb" />
-        <option value="$PROJECT_DIR$/src/domain/proto_Constructor.rb" />
         <option value="$PROJECT_DIR$/src/domain/proto_module.rb" />
+        <option value="$PROJECT_DIR$/Test/proto_traits_spec.rb" />
+        <option value="$PROJECT_DIR$/src/domain/proto_trait_tipos.rb" />
+        <option value="$PROJECT_DIR$/src/domain/proto_Constructor.rb" />
       </list>
     </option>
   </component>
@@ -138,7 +138,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -149,61 +149,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TADP-2c-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TADP-2c-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TADP-2c-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TADP-2c-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TADP-2c-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TADP-2c-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TADP-2c-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -217,134 +163,6 @@
     <property name="project.settings.patched" value="true" />
   </component>
   <component name="RunManager" selected="RSpec.Prototype: TADP-2c-2014">
-    <configuration default="false" name="Prototype Crear nuevo objeto con nuevo prototipo (solo con metodos): TADP-2c-2014" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="TADP-2c-2014" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/Test" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Test/proto_traits_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Prototype Crear nuevo objeto con nuevo prototipo (solo con metodos)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Prototype Crear nuevo objeto con nuevo prototipo (con metodos y atributos): TADP-2c-2014" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="TADP-2c-2014" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/Test" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Test/proto_traits_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Prototype Crear nuevo objeto con nuevo prototipo (con metodos y atributos)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Prototype Test call_next: TADP-2c-2014" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="TADP-2c-2014" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/Test" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Test/proto_traits_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Prototype Test call_next" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Prototype Azucar Sintactico para obtener prototipos: TADP-2c-2014" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="TADP-2c-2014" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/Test" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Test/proto_traits_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Prototype Azucar Sintactico para obtener prototipos" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="Prototype: TADP-2c-2014" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="TADP-2c-2014" />
@@ -465,21 +283,13 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <method />
     </configuration>
-    <list size="6">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="RSpec.Prototype Azucar Sintactico sobre new: TADP-2c-2014" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.Prototype Crear nuevo objeto con nuevo prototipo (solo con metodos): TADP-2c-2014" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Prototype Crear nuevo objeto con nuevo prototipo (con metodos y atributos): TADP-2c-2014" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Prototype Test call_next: TADP-2c-2014" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Prototype Azucar Sintactico para obtener prototipos: TADP-2c-2014" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.Prototype: TADP-2c-2014" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.Prototype: TADP-2c-2014" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="RSpec.Prototype: TADP-2c-2014" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Prototype Azucar Sintactico para obtener prototipos: TADP-2c-2014" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Prototype Test call_next: TADP-2c-2014" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Prototype Crear nuevo objeto con nuevo prototipo (con metodos y atributos): TADP-2c-2014" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Prototype Crear nuevo objeto con nuevo prototipo (solo con metodos): TADP-2c-2014" />
       </list>
     </recent_temporary>
   </component>
@@ -516,7 +326,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -528,7 +338,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399384" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4357035" sideWeight="0.25878906" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11792453" sideWeight="0.74121094" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.78110236" sideWeight="0.74121094" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -581,6 +391,54 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/domain/proto_trait_tipos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/proto_Constructor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/proto_module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2652" max-vertical-offset="3400">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/proto_traits_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="5389">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/proto_trait_tipos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="4539">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/proto_traits_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="5780">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/proto_trait_tipos.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3929" max-vertical-offset="4539">
@@ -787,32 +645,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/proto_trait_tipos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/proto_Constructor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/proto_module.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3400">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2077" max-vertical-offset="3400">
+          <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/proto_traits_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08411215" vertical-offset="176" max-vertical-offset="5389">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.44663382" vertical-offset="0" max-vertical-offset="5389">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding />
         </state>
       </provider>
