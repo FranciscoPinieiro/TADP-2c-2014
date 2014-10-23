@@ -44,6 +44,7 @@ module Prototyped
 
   def implements_own? (a_method)
     implementations = self.bloques.select{|method_imp| method_imp[0] == a_method}
+    #CORRECCION: reemplazar el if por: return !implementations.empty?
     if implementations.size == 0 then
       return false
     else
@@ -52,6 +53,7 @@ module Prototyped
   end
 
   def create_proto_ref_method(a_method, arity)
+    #CORRECCION: si este objeto es prototipo de otros, los demás no se van a enterar del cambio.
     if arity == 0 then
       self.singleton_class.send(:define_method, a_method, proc do
         method_block = self.find_block_in_prototypes(a_method, self.call_next_iteration)

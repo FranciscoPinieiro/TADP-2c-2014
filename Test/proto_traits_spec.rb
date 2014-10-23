@@ -213,6 +213,8 @@ describe 'Prototype' do
     proto_guerrero.potencial_ofensivo = proc {
       1000
     } #no cumple el assertion ya que el setter "potencial_ofensivo=" esta definido y nosotros implementamos azucar sintactico con method_missing
+
+    #CORRECCION: Para hacerlo andar tienen que desarrollar todo en el method missing
     expect(atila.potencial_ofensivo).to eq(50)
 
   end
